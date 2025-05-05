@@ -9,11 +9,13 @@
 using namespace std;
 
 string input;
+//ipv4 for Router 1
 vector<string> R1 = {
     to_string(rand() % 256),
     to_string(rand() % 256),
     to_string(rand() % 256),
     to_string(rand() % 256)};
+//ipv4 for Router 8
 vector<string> R8 = {
     to_string(rand() % 256),
     to_string(rand() % 256),
@@ -83,7 +85,7 @@ vector<vector<string>> frames = {
      "#    R8      #",
      "##############"}};
 
-// Convert string to binary
+// Convert message to binary
 string stringToBinary(const string &input)
 {
     stringstream binaryStream;
