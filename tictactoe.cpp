@@ -12,7 +12,7 @@ char board[3][3] = {
 };
 
 void DrawBoard() {
-    cout << "\t\t-------------\n";
+    cout << "\n\t\t-------------\n";
     for (int i = 0; i < 3; i++) {
         cout << "\t\t| ";
         for (int j = 0; j < 3; j++) {
